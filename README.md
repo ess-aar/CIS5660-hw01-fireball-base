@@ -2,7 +2,7 @@
 
 ## Explosion Fireball
 
-![](./images/Untitled.png)
+![](./images/Untitled.jpg)
 
 View it on your [browser](https://ess-aar.github.io/CIS5660-hw01-fireball-base/)
 
