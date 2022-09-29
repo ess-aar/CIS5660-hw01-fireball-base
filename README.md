@@ -11,6 +11,7 @@ I started with the intention of creating a classic exposion-like look to my fire
 For the background I decided to try out domain warping to add more interest to the scene. This invloved 3 layers of FMB noise applied to the UVs and mix of 4 colors. The color selection here gives the background a more cloudy look (as opposed to a marbled effect). There is also a glow in the background behind the fireball to fake light from it.
 
 Noise used: 3D Perlin, 3D FBM
+
 Toolbox functions used: Linear Interpolation, Cosine Interpolation, Sin waves
 
 ### Parameters
