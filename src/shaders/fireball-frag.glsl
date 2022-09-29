@@ -21,13 +21,6 @@ const vec3 fireColors[6] = vec3[](vec3(99, 5, 0) / 255.0,         // MARRON
                             vec3(249, 222, 81) / 255.0,     // YELLOW
                             vec3(255, 255, 129) / 255.0);    // LIGHT YELLOW
 
-// const vec3 fireColors[6] = vec3[](vec3(255, 255, 129) / 255.0,    // LIGHT YELLOW
-//                             vec3(249, 222, 81) / 255.0,     // YELLOW
-//                             vec3(255, 151, 56) / 255.0,     // ORANGE
-//                             vec3(245, 96, 55) / 255.0,     // DARK ORANGE
-//                             vec3(128, 6, 4) / 255.0,        // RED
-//                             vec3(99, 5, 0) / 255.0);         // MARRON
-
 vec3 getColor(float threshold)
 {
   float bucket = 0.1;

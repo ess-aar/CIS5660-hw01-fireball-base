@@ -79,7 +79,7 @@ void main() {
   newColor = mix(newColor, u_Color.rgb, clamp(length(q),0.0,1.0));
   newColor = mix(newColor, colors[0], clamp(length(r.x),0.0,1.0));
   
-  newColor += glow(uv) * 0.9;
+  newColor += vec3(glow(uv) * 0.9) * vec3(vec3(255, 151, 56) / 255.0) * 0.8;
 
   // Compute final shaded color
   out_Col = vec4(newColor * (length(r*r) * 0.5), 1.0);
