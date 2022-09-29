@@ -1,5 +1,14 @@
 # [Project 1: Noise](https://github.com/CIS-566-Fall-2022/hw01-fireball-base)
 
+## Explosion Fireball
+
+![](./images/Untitled.png)
+
+View it on your [browser](https://ess-aar.github.io/CIS5660-hw01-fireball-base/)
+
+I started with the intention of creating a classic exposion-like look to my fireball. To achieve this I used 3D Perlin noise (with lower freg, higher amplitude) to distort the base sphere shape & 3D FBM noise (with higher freq, lower amplitude) to add flame like displacement on top of the base. The coloring was key to achieve the explosion-like visual. The value of displacement from the vertex shader is used as the threshold for the color change in the fragment shader. I decided to add bloom effect to the very yellow parts of the fireball to give it an emmisive look.
+For the background I decided to try out domain warping to add more interest to the scene. This invloved 3 layers of FMB noise applied to the UVs and mix of 4 colors. The color selection here gives the background a more cloudy look (as opposed to a marbled effect). There is also a glow in the background behind the fireball to fake light from it.
+
 ## Objective
 
 Get comfortable with using WebGL and its shaders to generate an interesting 3D, continuous surface using a multi-octave noise algorithm.
